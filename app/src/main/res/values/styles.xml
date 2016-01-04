@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/PrimaryColor</item>
+        <item name="android:colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyStyle">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#333</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MyStyle1">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#333</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="MyStyle2">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#666</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:id="@+id/myimage1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/myimage1"
+        android:layout_toRightOf="@id/myimage1"
+        android:text="New Deck Tavern"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/place1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myname"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/myimage1"
+        android:layout_toRightOf="@id/myimage1"
+        android:text="Sansom Street" />
+
+    <TextView
+        android:id="@+id/disc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place1"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@id/myimage1"
+        android:layout_toRightOf="@id/myimage1"
+        android:text="Discount" />
+
+    <ImageButton
+        android:id="@+id/nextbtn"
+        android:layout_width="40dp"
+        android:layout_height="130dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/arrw" />
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/disc"
+        android:layout_marginLeft="12dp"
+        android:layout_toEndOf="@+id/disc"
+        android:layout_toRightOf="@+id/disc"
+        android:text="Price" />
+
+    <TextView
+        android:id="@+id/found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/price1"
+        android:layout_marginLeft="14dp"
+        android:layout_toEndOf="@+id/price1"
+        android:layout_toRightOf="@+id/price1"
+        android:text="Found" />
+
+    <TextView
+        android:id="@+id/disc111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/disc"
+        android:layout_alignStart="@+id/disc"
+        android:layout_below="@+id/disc"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="50%"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/price111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/price1"
+        android:layout_alignStart="@+id/price1"
+        android:layout_below="@+id/price1"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:text="$50"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/found111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/price111"
+        android:layout_alignLeft="@+id/found"
+        android:layout_alignStart="@+id/found"
+        android:layout_marginLeft="-5dp"
+        android:text="10d ago"
+        android:textStyle="bold" />
+
+    <!--<RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/madd"
+        android:layout_toEndOf="@id/myimage"
+        android:layout_toRightOf="@id/myimage"
+        android:numStars="5"
+        android:stepSize="1.0" />-->
+
+
+</RelativeLayout>
